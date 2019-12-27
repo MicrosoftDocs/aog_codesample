@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebWcfService.WebDataService" CodeBehind="WebDataService.svc.cs" %>

@@ -1,0 +1,128 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>azure-sdk-java-example</artifactId>
+        <groupId>com.vianet.azure.sdk</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>azure-service-manage</artifactId>
+    <packaging>jar</packaging>
+
+    <name>azure-service-manage</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-svc-mgmt</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-svc-mgmt-compute</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-svc-mgmt-network</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-svc-mgmt-scheduler</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-svc-mgmt-storage</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-eventhubs</artifactId>
+            <version>0.7.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-servicebus</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-storage</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>adal4j</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.8.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+		<dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
+		<dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-amqp-1-0-client</artifactId>
+            <version>0.32</version>
+        </dependency>
+		<dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-amqp-1-0-client-jms</artifactId>
+            <version>0.32</version>
+        </dependency>
+		<dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-amqp-1-0-common</artifactId>
+            <version>0.32</version>
+        </dependency>
+		<dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jms_1.1_spec</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

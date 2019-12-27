@@ -1,0 +1,135 @@
+{
+  "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions",
+  "value": [
+    {
+      "resourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "resourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "name": {
+        "value": "Percentage CPU",
+        "localizedValue": "CPU percentage"
+      },
+      "startTime": "0001-01-01T00:00:00Z",
+      "endTime": "0001-01-01T00:00:00Z",
+      "unit": "Percent",
+      "primaryAggregationType": "Average",
+      "ResourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "ResourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "metricAvailabilities": [
+        {
+          "timeGrain": "PT5M",
+          "retention": "P90D"
+        },
+        {
+          "timeGrain": "PT1H",
+          "retention": "P90D"
+        }
+      ],
+      "properties": {},
+      "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions/Percentage CPU"
+    },
+    {
+      "resourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "resourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "name": {
+        "value": "Network In",
+        "localizedValue": "Network In"
+      },
+      "startTime": "0001-01-01T00:00:00Z",
+      "endTime": "0001-01-01T00:00:00Z",
+      "unit": "Bytes",
+      "primaryAggregationType": "Total",
+      "ResourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "ResourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "metricAvailabilities": [
+        {
+          "timeGrain": "PT5M",
+          "retention": "P90D"
+        },
+        {
+          "timeGrain": "PT1H",
+          "retention": "P90D"
+        }
+      ],
+      "properties": {},
+      "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions/Network In"
+    },
+    {
+      "resourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "resourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "name": {
+        "value": "Network Out",
+        "localizedValue": "Network Out"
+      },
+      "startTime": "0001-01-01T00:00:00Z",
+      "endTime": "0001-01-01T00:00:00Z",
+      "unit": "Bytes",
+      "primaryAggregationType": "Total",
+      "ResourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "ResourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "metricAvailabilities": [
+        {
+          "timeGrain": "PT5M",
+          "retention": "P90D"
+        },
+        {
+          "timeGrain": "PT1H",
+          "retention": "P90D"
+        }
+      ],
+      "properties": {},
+      "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions/Network Out"
+    },
+    {
+      "resourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "resourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "name": {
+        "value": "Disk Read Bytes/sec",
+        "localizedValue": "Disk read"
+      },
+      "startTime": "0001-01-01T00:00:00Z",
+      "endTime": "0001-01-01T00:00:00Z",
+      "unit": "BytesPerSecond",
+      "primaryAggregationType": "Average",
+      "ResourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "ResourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "metricAvailabilities": [
+        {
+          "timeGrain": "PT5M",
+          "retention": "P90D"
+        },
+        {
+          "timeGrain": "PT1H",
+          "retention": "P90D"
+        }
+      ],
+      "properties": {},
+      "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions/Disk Read Bytes/sec"
+    },
+    {
+      "resourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "resourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "name": {
+        "value": "Disk Write Bytes/sec",
+        "localizedValue": "Disk write"
+      },
+      "startTime": "0001-01-01T00:00:00Z",
+      "endTime": "0001-01-01T00:00:00Z",
+      "unit": "BytesPerSecond",
+      "primaryAggregationType": "Average",
+      "ResourceUri": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "ResourceId": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never",
+      "metricAvailabilities": [
+        {
+          "timeGrain": "PT5M",
+          "retention": "P90D"
+        },
+        {
+          "timeGrain": "PT1H",
+          "retention": "P90D"
+        }
+      ],
+      "properties": {},
+      "id": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-vs-never/providers/Microsoft.ClassicCompute/virtualMachines/kevin-vs-never/providers/microsoft.insights/metricdefinitions/Disk Write Bytes/sec"
+    }
+  ]
+}

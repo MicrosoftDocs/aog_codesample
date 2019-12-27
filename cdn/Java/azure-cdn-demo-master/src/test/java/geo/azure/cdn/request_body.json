@@ -1,0 +1,11 @@
+{
+  "CustomDomain": "file.azurecloudapi.cn",
+  "Host": "file.azurecloudapi.cn",
+  "ICP": "%E8%BE%BDICP%E5%A4%8716013159%E5%8F%B7",
+  "Origin": {
+    "Addresses": [
+      "devstoragerm.blob.core.chinacloudapi.cn"
+    ]
+  },
+  "ServiceType": "Download"
+}

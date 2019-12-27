@@ -1,0 +1,124 @@
+{
+  "Value": [
+    {
+      "Name": "Disk Read Bytes/sec",
+      "Namespace": "",
+      "ResourceIdSuffix": "roles/kevin-vs-never",
+      "DisplayName": "Disk Read Bytes/sec",
+      "Unit": "Bytes/sec",
+      "PrimaryAggregation": "Average",
+      "MetricAvailabilities": [
+        {
+          "TimeGrain": "PT5M",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT1H",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT12H",
+          "Retention": "P90D"
+        }
+      ],
+      "MinimumAlertableTimeWindow": "PT5M",
+      "IsAlertable": true
+    },
+    {
+      "Name": "Disk Write Bytes/sec",
+      "Namespace": "",
+      "ResourceIdSuffix": "roles/kevin-vs-never",
+      "DisplayName": "Disk Write Bytes/sec",
+      "Unit": "Bytes/sec",
+      "PrimaryAggregation": "Average",
+      "MetricAvailabilities": [
+        {
+          "TimeGrain": "PT5M",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT1H",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT12H",
+          "Retention": "P90D"
+        }
+      ],
+      "MinimumAlertableTimeWindow": "PT5M",
+      "IsAlertable": true
+    },
+    {
+      "Name": "Network Out",
+      "Namespace": "",
+      "ResourceIdSuffix": "roles/kevin-vs-never",
+      "DisplayName": "Network Out",
+      "Unit": "Bytes",
+      "PrimaryAggregation": "Total",
+      "MetricAvailabilities": [
+        {
+          "TimeGrain": "PT5M",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT1H",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT12H",
+          "Retention": "P90D"
+        }
+      ],
+      "MinimumAlertableTimeWindow": "PT5M",
+      "IsAlertable": true
+    },
+    {
+      "Name": "Percentage CPU",
+      "Namespace": "",
+      "ResourceIdSuffix": "roles/kevin-vs-never",
+      "DisplayName": "CPU Percentage",
+      "Unit": "Percentage",
+      "PrimaryAggregation": "Average",
+      "MetricAvailabilities": [
+        {
+          "TimeGrain": "PT5M",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT1H",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT12H",
+          "Retention": "P90D"
+        }
+      ],
+      "MinimumAlertableTimeWindow": "PT5M",
+      "IsAlertable": true
+    },
+    {
+      "Name": "Network In",
+      "Namespace": "",
+      "ResourceIdSuffix": "roles/kevin-vs-never",
+      "DisplayName": "Network In",
+      "Unit": "Bytes",
+      "PrimaryAggregation": "Total",
+      "MetricAvailabilities": [
+        {
+          "TimeGrain": "PT5M",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT1H",
+          "Retention": "P90D"
+        },
+        {
+          "TimeGrain": "PT12H",
+          "Retention": "P90D"
+        }
+      ],
+      "MinimumAlertableTimeWindow": "PT5M",
+      "IsAlertable": true
+    }
+  ]
+}

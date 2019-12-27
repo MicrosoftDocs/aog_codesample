@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiagnosticsConfiguration xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+  <PublicConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <WadCfg>
+      <DiagnosticMonitorConfiguration overallQuotaInMB="4096">
+        <EtwProviders />
+        <Logs scheduledTransferPeriod="PT1M" />
+      </DiagnosticMonitorConfiguration>
+    </WadCfg>
+    <StorageAccount />
+  </PublicConfig>
+  <PrivateConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <StorageAccount endpoint="" />
+  </PrivateConfig>
+  <IsEnabled>true</IsEnabled>
+</DiagnosticsConfiguration>

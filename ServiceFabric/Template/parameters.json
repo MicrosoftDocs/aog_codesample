@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "sf-cluster"
+        },
+        "clusterLocation": {
+            "value": "chinanorth"
+        },
+        "adminUserName": {
+            "value": "testadr"
+        },
+        "adminPassword": {
+            "value": "Aa111111"
+        },
+        "certificateThumbprint": {
+			"value": "5DBFC1A3BEA03523681D7FED15A2F1D6B5825473",
+		},
+		"sourceVaultValue": {
+			"value": "/subscriptions/e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb/resourceGroups/kevin-group/providers/Microsoft.KeyVault/vaults/kevinsfvault",
+		},
+		"certificateUrlValue": {
+			"value": "https://kevinsfvault.vault.azure.cn:443/secrets/aruicert/f0826581180445aa9d51060e12b635cb",
+	    },
+        "vnetResourceGroups": {
+            "value": "kevin-group"
+        },
+        "vnetName": {
+            "value": "kevin-net"
+        },
+		"subnet0Name": {
+            "value": "sf-net"
+        },
+        "subnet0Prefix": {
+            "value": "10.1.0.48/28"
+        },
+        "staticIpResourceGroups": {
+            "value": "kevin-group"
+        },
+        "staticIpName": {
+            "value": "kevin-ip"
+        },
+        "staticIpDnsFQDN": {
+            "value": "test.arui.me"
+        }
+    }
+}

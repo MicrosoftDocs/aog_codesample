@@ -1,0 +1,23 @@
+{
+  "if": {
+    "allOf": [
+      {
+        "field": "tags",
+        "exists": "true"
+      },
+      {
+        "field": "tags.BillTo",
+        "exists": "false"
+      }
+    ]
+  },
+  "then": {
+    "effect": "append",
+    "details": [
+      {
+        "field": "tags.BillTo",
+        "value": "HR"
+      }
+    ]
+  }
+}

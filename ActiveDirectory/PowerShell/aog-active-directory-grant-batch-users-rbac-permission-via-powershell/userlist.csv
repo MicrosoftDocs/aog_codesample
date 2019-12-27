@@ -1,0 +1,4 @@
+﻿Subid,UserOrApp,AppObjectID,UPN,rolename,resourcegroup
+3155f6cd-da79-xxxxxxx,user,,azureuser8@xxxxxxxx,Virtual Machine Contributor,test
+9b65639b-59c0-xxxxxxx,user,,azureuser1@xxxxxxx,Storage Account Contributor,
+3155f6cd-da79-xxxxxxx,App,1ccde1ae-31cf-4411-ab55-xxxxxxxx,,Reader,

@@ -1,0 +1,100 @@
+{
+  "Profiles": [
+    {
+      "Name": "Week Day",
+      "Capacity": {
+        "Minimum": "$minInstances",
+        "Maximum": "$maxInstances",
+        "Default": "$defaultInstances"
+      },
+      "Rules": [
+        {
+          "MetricTrigger": {
+            "MetricName": "Percentage CPU",
+            "MetricNamespace": "",
+            "MetricSource": "/VirtualMachinesAvailabilitySet/$cloudServiceName/$availabilitySetName",
+            "TimeGrain": "PT5M",
+            "Statistic": "Average",
+            "TimeWindow": "PT45M",
+            "TimeAggregation": "Average",
+            "Operator": "GreaterThanOrEqual",
+            "Threshold": "$cpuScaleOut"
+          },
+          "ScaleAction": {
+            "Direction": "Increase",
+            "Type": "ChangeCount",
+            "Value": "1",
+            "Cooldown": "PT20M"
+          }
+        },
+        {
+          "MetricTrigger": {
+            "MetricName": "Percentage CPU",
+            "MetricNamespace": "",
+            "MetricSource": "/VirtualMachinesAvailabilitySet/$cloudServiceName/$availabilitySetName",
+            "TimeGrain": "PT5M",
+            "Statistic": "Average",
+            "TimeWindow": "PT45M",
+            "TimeAggregation": "Average",
+            "Operator": "LessThanOrEqual",
+            "Threshold": "$cpuScaleIn"
+          },
+          "ScaleAction": {
+            "Direction": "Decrease",
+            "Type": "ChangeCount",
+            "Value": "1",
+            "Cooldown": "PT20M"
+          }
+        }
+      ],
+      "Recurrence": {
+        "Frequency": "Week",
+        "Schedule": {
+          "TimeZone": "Eastern Standard Time",
+          "Days": [ "Monday", "Tuesday", "Wednesday",
+            "Thursday" ,"Friday" ],
+          "Hours": [ 8 ],
+          "Minutes": [ 0 ]
+        }
+      }
+    },
+    {
+      "Name": "Week Night",
+      "Capacity": {
+        "Minimum": "$defaultInstances",
+        "Maximum": "$defaultInstances",
+        "Default": "$defaultInstances"
+      },
+      "Rules": [ ],
+      "Recurrence": {
+        "Frequency": "Week",
+        "Schedule": {
+          "TimeZone": "Eastern Standard Time",
+          "Days": [ "Monday", "Tuesday", "Wednesday",
+            "Thursday" ],
+          "Hours": [ 20 ],
+          "Minutes": [ 0 ]
+        }
+      }
+    },
+    {
+      "Name": "Week End",
+      "Capacity": {
+        "Minimum": "$defaultInstances",
+        "Maximum": "$defaultInstances",
+        "Default": "$defaultInstances"
+      },
+      "Rules": [ ],
+      "Recurrence": {
+        "Frequency": "Week",
+        "Schedule": {
+          "TimeZone": "Eastern Standard Time",
+          "Days": [ "Friday" ],
+          "Hours": [ 20 ],
+          "Minutes": [ 0 ]
+        }
+      }
+    }
+  ],
+  "Enabled": true
+}

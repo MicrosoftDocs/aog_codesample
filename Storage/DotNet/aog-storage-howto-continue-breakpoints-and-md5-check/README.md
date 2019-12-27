@@ -1,0 +1,4 @@
+# Azure-Storage-resume-from-breakpoint-example
+
+如果使用.net sdk上传文件到Blob中可以在上传的方法中配置BlobRequestOptions类，将该类的StoreBlobContentMD5参数设置为true，即可在上传时自动计算MD5值，并且在上传时将此值写入到请求头部（Content-MD5）中（可以参考https://docs.azure.cn/zh-cn/dotnet/api/microsoft.windowsazure.storage.blob.blobrequestoptions.storeblobcontentmd5?view=azure-dotnet#Microsoft_WindowsAzure_Storage_Blob_BlobRequestOptions_StoreBlobContentMD5 此文档描述）
+但是如果使用断点续传的方法，是将多个PutBlock请求加上一个PubBlockList请求组成，那么想要上传MD5值时需要将MD5写到另一个 x-ms-blob-content-md5请求头部的参数中，BlobRequestOptions中并没有关于赋值给该参数的属性，所以如果使用断点续传，采用sdk的PubBlockList()方法无法将MD5值上传上去，本篇文档即要解决如何在断点续传时上传MD5值。
